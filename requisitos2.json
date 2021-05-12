@@ -1,0 +1,71 @@
+{
+    "root/":{
+        "clientela":{    
+            "clienteID":{
+                "nome":"Roberto",
+                "sobrenome":"Carlos",
+                "email":"essecarasoueu@gmail.com",
+                "telefone": "74966321",
+                "endereco":{
+                    "rua": "Rua dos sonhos",
+                    "bairro": "Do belo homem",
+                    "cidade": "VSF",
+                    "estado": "São José",
+                    "N_da_casa": 11,
+                    "complemento": ""
+                },
+                "data_de_nasc":[19,1,2001],
+                "sexo": "Masculino",
+                "CPF":"12345678910",
+                "CEP":12345678,
+                "numero(cel)":"40028922",
+                "twitter":"@éeu",
+                "facebook":"eumermo",
+                "instagram":"@eudenovo"
+            },
+            "clienteID2":{
+                "...":"..."
+            }    
+        },    
+        "site":{
+            "redes":{
+                "twitter":"",
+                "facebook":"",
+                "instagram":"",
+                "whatsapp":""
+            }
+         },
+        "produtos":{
+            "categorias":{
+                "ID_camisa": {
+                    "preco": 10.00,
+                    "descricao":"",
+                    "foto":"link_foto",
+                    "quantidade":3,
+                    "tamanho": "M",
+                    "cor": "rosa"
+                },
+                "ID_calcado":{
+                    "preco": 13.00,
+                    "descricao":"",
+                    "foto":"link_foto",
+                    "quantidade":2,
+                    "tamanho": 11,
+                    "cor":"azul"
+                },
+                "ID_brinquedo": {
+                    "preco": 40.00,
+                    "descricao":"",
+                    "foto":"link_foto",
+                    "quantidade":1,
+                    "nome":"Pista Hotwheels"
+                }    
+            },
+            "pagamentos":["cartao","pix","boleto"],
+            "horariosdefunc":{
+                "aberto":"Aberto das XX:XX até as YY:YY",
+                "fechado":"Fechado nos finais de semana"
+            }
+        }    
+    }
+}
